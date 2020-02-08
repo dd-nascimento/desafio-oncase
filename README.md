@@ -1,27 +1,31 @@
 # RedeDev
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+Projeto desenvolvido com o framework Angular version 8.3.24. Além do JSON como fonte de dados. 
 
-## Development server
+# Do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este projeto consiste em construir uma rede social (blog, alguns e to-dos) que mostre insights (visualização de dados), para os usuários comuns que só poderão enxergar os seus próprios dados e usuários administradores que poderão visualizar os dados de todos os usuarios comuns.
 
-## Code scaffolding
+# Dos privilégios de Usuários Comuns
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+● Gráfico mostrando os N posts mais comentados, onde a medida é a quantidade de comentários; 
+● Gráfico mostrando Percentual de to-dos completos vs incompletos; ● Gráfico mostrando Distribuição da quantidade de fotos por álbum; 
+● Outros de sugestão do desenvolvedor.
 
-## Build
+# Dos privilégios de Usuários Administradores
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+● Gráfico mostrando os N posts mais comentados, onde a medida é a quantidade de comentários; 
+● Gráfico mostrando Top N usuários com mais to-dos incompletos, completos ou total, em número absoluto ou percentual; 
+● Gráfico mostrando Distribuição da quantidade de fotos por álbums dos usuários; 
+● Gráfico mostrando usuários com mais fotos; 
+● Mapa mostrando distribuição geográfica dos usuários; 
+● Outros de sugestão do desenvolvedor.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Das funcionalidades chaves
 
-## Running end-to-end tests
+● Autenticação e autorização por grupo/perfil do usuário; 
+● Apresentação de insights de acordo com grupo do usuário; 
+● Identificação do usuário logado; 
+● Facilidade na utilização - UX
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
