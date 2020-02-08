@@ -29,3 +29,6 @@ Este projeto consiste em construir uma rede social (blog, alguns e to-dos) que m
 ● Identificação do usuário logado; 
 ● Facilidade na utilização - UX
 
+# Do Desenvolvedor
+
+David Nascimento Melo, formado em Sistemas para Internet no Centro Universitário São Miguel - 2018. 
